@@ -10,8 +10,7 @@ import Home from './pages/Home/index'
 import NavBar from './globalComponents/NavBar'
 
 export default function App() {
-  return (
-    
+  return (    
       <div>
         <NavBar />
       </div>

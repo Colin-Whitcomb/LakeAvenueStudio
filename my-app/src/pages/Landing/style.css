@@ -1,3 +1,42 @@
-/* #LASlogo1 {
+#bg {
+       /* The image used */
+       background-image: url('../../utils/images/LandBG3.jpg');
+  
+       /* Full height */
+     height: 100vh;
+     
+       /* Center and scale the image nicely */
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+
+.Logo1 {
+
+    /* Full height */
+    max-width: 90%;
+    height:auto;
+    display:block;
+    margin: auto;
+    padding-top: 10vh;
     
-} */
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#landImg1 {
+      /* Full height */
+      max-width: 90%;
+      height:auto;
+      display:block;
+      margin: auto;
+      padding-top: 3vh;
+      
+       /* Center and scale the image nicely */
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+

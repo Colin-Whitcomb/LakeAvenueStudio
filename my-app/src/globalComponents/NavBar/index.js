@@ -58,7 +58,6 @@ function LandingPage() {
             </Route>
           </Switch>
         </div>
-  
       </Router>
     );
   }

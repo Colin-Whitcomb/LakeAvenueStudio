@@ -10,3 +10,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+#homeImg1 {
+  /* Full height */
+  max-width: 70%;
+  height:auto;
+  display:block;
+  margin: auto;
+  padding-top: 3vh;
+  
+  
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+

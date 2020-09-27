@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div>
     <NavBar/> 
-    <LandingPage />
+    {/* <LandingPage /> */}
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css'
 
 export default function Footer() {
     return (
         <footer class="page-footer">
-          <div class="container">
+          <div class="container ftr">
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Contact Info</h5>
@@ -12,10 +13,12 @@ export default function Footer() {
               
             </div>
           </div>
+
+        {/* Bottom Copyright section */}
           <div class="footer-copyright">
-            <div class="container">
+            <div class="container center">
             © 2020 Copyright
-            <a class="grey-text text-lighten-4 right" href="#!">Link</a>
+            {/* <a class="grey-text text-lighten-4 right" href="#!">Link</a> */}
             </div>
           </div>
         </footer>

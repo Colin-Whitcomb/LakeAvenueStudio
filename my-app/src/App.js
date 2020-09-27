@@ -10,12 +10,12 @@ import Home from './pages/Home/index'
 import NavBar from './globalComponents/NavBar'
 import LandingPage from '../src/pages/Landing/index'
 
-// Router needs to be in App ()
+// Router needs to be in App 
 export default function App() {
   return (
     <div>
     <NavBar/> 
-    {/* <LandingPage /> */}
+    <LandingPage />
     </div>
   );
 }

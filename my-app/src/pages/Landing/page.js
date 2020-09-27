@@ -3,14 +3,13 @@ import logo from '../../utils/images/LASlogo1.png'
 import productPic from '../../utils/images/LandImg1.png'
 import { BrowserRouter as Router, Route, Link, Switch, useHistory} from "react-router-dom";
 import HomePage from '../Home/index';
-import HomeButton from '../../globalComponents/LandtoHomeBtn/index'
 
 export default function LandingPage() {
     
     const history = useHistory();
-
+    console.log(history);
     function handleClick() {
-      history.push("/home");
+    history.push("/home");
     }
         return( 
             <div>

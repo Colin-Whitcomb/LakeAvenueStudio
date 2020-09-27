@@ -1,12 +1,12 @@
 #bg2 {
-    /* The image used */
-    background-image: url('');
+  /* The image used */
+  background-image: url('../../utils/images/HomeBG1.jpg');
 
-    /* Full height */
+  /* Full height */
   height: 100vh;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

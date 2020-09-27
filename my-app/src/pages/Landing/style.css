@@ -19,7 +19,7 @@
     display:block;
     margin: auto;
     padding-top: 7vh;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     
      /* Center and scale the image nicely */
      background-position: center;

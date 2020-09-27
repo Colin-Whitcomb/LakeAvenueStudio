@@ -7,13 +7,16 @@ import HomeButton from '../../globalComponents/LandtoHomeBtn/index'
 
 export default function LandingPage() {
     
+    const history = useHistory();
 
+    function handleClick() {
+      history.push("/home");
+    }
         return( 
             <div>
                 <div id="bg">
-                <img src={logo} className='responsive-image Logo1' alt='Lake Avenue Studio Logo'></img>
+                <img src={logo}onClick={handleClick} className='responsive-image Logo1' alt='Lake Avenue Studio Logo'></img>
                 <img src={productPic} className='responsive-image' id="landImg1" alt='Picture of arts and crafts'></img>
-                <HomeButton />
                 </div>
             
             </div>

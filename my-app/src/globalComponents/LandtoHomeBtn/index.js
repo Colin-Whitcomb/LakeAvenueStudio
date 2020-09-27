@@ -1,5 +1,7 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
+import logo from '../../utils/images/LASlogo1.png'
+
 
 export default function HomeButton() {
   const history = useHistory();
@@ -9,8 +11,8 @@ export default function HomeButton() {
   }
 
   return (
-    <button type="button" onClick={handleClick}>
-      Go home
-    </button>
+
+    <img src={logo} onClick={handleClick} className='responsive-image Logo1' alt='Lake Avenue Studio Logo'></img>
+ 
   );
 }

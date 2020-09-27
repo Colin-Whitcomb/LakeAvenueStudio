@@ -1,6 +1,6 @@
 #bg {
        /* The image used */
-       background-image: url('../../utils/images/LandBG3.jpg');
+       background-image: url('../../utils/images/HomeBG2.jpg');
   
        /* Full height */
      height: 100vh;
@@ -14,11 +14,12 @@
 .Logo1 {
 
     /* Full height */
-    max-width: 90%;
+    max-width: 80%;
     height:auto;
     display:block;
     margin: auto;
-    padding-top: 10vh;
+    padding-top: 7vh;
+    opacity: 0.5;
     
      /* Center and scale the image nicely */
      background-position: center;
@@ -26,13 +27,22 @@
      background-size: cover;
 }
 
+.Logo1:hover {
+    opacity: 0.5;
+}
+
+#landImg1:hover {
+    opacity: 0.5;
+}
+
 #landImg1 {
       /* Full height */
-      max-width: 90%;
+      max-width: 70%;
       height:auto;
       display:block;
       margin: auto;
       padding-top: 3vh;
+      
       
        /* Center and scale the image nicely */
        background-position: center;

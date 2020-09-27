@@ -8,11 +8,14 @@ import {
 import Landing from './pages/Landing/index'
 import Home from './pages/Home/index'
 import NavBar from './globalComponents/NavBar'
+import LandingPage from '../src/pages/Landing/index'
 
+// Router needs to be in App ()
 export default function App() {
-  return (    
-      <div>
-        <NavBar />
-      </div>
+  return (
+    <div>
+    <NavBar/> 
+    {/* <LandingPage /> */}
+    </div>
   );
 }
